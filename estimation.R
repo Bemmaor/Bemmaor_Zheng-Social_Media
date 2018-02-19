@@ -1,6 +1,7 @@
 install.packages("data.table")
 library(data.table)
 #path <- "C:/Users/buslzhe/Downloads/RA-JJ-Code (1)/RA-JJ-Code/"
+#commentaire rochdi
 path <- "P:/CasEtDon/Mkg/Bac2/RA JJ/RA-JJ/RA-JJ-Code/"
 setwd(path)
 source("utilities.R")
