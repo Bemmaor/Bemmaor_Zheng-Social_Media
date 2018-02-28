@@ -302,5 +302,5 @@ tmp <- nlapply(ctry,function(y) setnames(cbind(c(paste0((1:18)," (",35:18,")"),"
                                                                 rbind(res_naive_on_trend[[y]],c(median(res_naive_on_trend[[y]]),Geomean(res_naive_on_trend[[y]]))),
                                                                 rbind(res_drift_seasonal[[y]],c(median(res_drift_seasonal[[y]]),Geomean(res_drift_seasonal[[y]])))))),c("forecast",rep(c("Med","Q-mean"),6))),ctry)
 
-write.csv2(tmp$USA1,"/Users/MacBook-Sacha/Documents/ESSEC/RA-JJ/RA-JJ/APE_synthetic.csv",
+write.csv2(tmp$USA1,"/Users/MacBook-Jack/Documents/ESSEC/RA-JJ/RA-JJ/APE_synthetic.csv",
            row.names = F)
