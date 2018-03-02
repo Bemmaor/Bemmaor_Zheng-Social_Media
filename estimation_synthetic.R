@@ -1,3 +1,6 @@
+# This code computes the one-month ahead to 18-month ahead forecasts with (i) the Bass model, (ii) the G/SG(alpha = 0.5), (iii) the Shifted Gompertz (SG) model, (iv) the G/SG(alpha), (v) the naive model with a linear trend and (vi) the model with seasonal effect, and the corresponding absolute percentage errors (ape'ss). It uses a synthetic data set with 67 data points. 
+# Bemmaor, Albert C. and Li Zheng (2018), "The Diffusion of Mobile Social Networking: Further Analysis," ESSEC Business School, Cergy-Pontoise. 
+
 install.packages("data.table")
 library(data.table)
 source(file.choose()) ##Open "utilities.R" file
@@ -300,5 +303,5 @@ tmp <- nlapply(ctry,function(y) setnames(cbind(c(paste0((1:18)," (",35:18,")"),"
                                                                 rbind(res_naive_on_trend[[y]],c(median(res_naive_on_trend[[y]][,1]),Geomean(res_naive_on_trend[[y]][,2]))),
                                                                 rbind(res_drift_seasonal[[y]],c(median(res_drift_seasonal[[y]][,1]),Geomean(res_drift_seasonal[[y]][,2])))))),c("forecast",rep(c("Med","Q-mean"),6))),ctry)
 
-write.csv2(tmp$USA1,"/Users/MacBook-Sacha/Documents/ESSEC/Assistanat Bemmaor/RA-JJ/RA-JJ/APE_synthetic.csv",
+write.csv2(tmp$USA1,"/Users/MacBook-Jack/Documents/ESSEC/Assistant BB/RA-JJ/RA-JJ/APE_synthetic.csv",
            row.names = F)
