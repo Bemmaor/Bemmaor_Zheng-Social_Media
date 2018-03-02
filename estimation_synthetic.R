@@ -5,7 +5,7 @@ install.packages("data.table")
 library(data.table)
 source(file.choose()) ##Open "utilities.R" file
 source(file.choose()) ##Open "myfunctions.R" file
-dt <- fread(file.choose()) ##Open "synthetic.csv" file
+dt <- fread(file.choose()) ##Open "synthetic_data_set.csv" file
 
 
 
