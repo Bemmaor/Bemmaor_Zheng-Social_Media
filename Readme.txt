@@ -1,4 +1,4 @@
-Copyright@ Albert C. Bemmaor, ESSEC Business School, and Li Zheng, Leeds U. Business School, University of Leeds, UK, 2018. 
+Copyright@ Albert C. Bemmaor, ESSEC Business School, Cergy-Pontoise, France, and Li Zheng, Leeds U. Business School, University of Leeds, UK, 2018. 
 
 On this site, you can find:
 
