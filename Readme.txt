@@ -1,6 +1,6 @@
 Copyright@ Albert C. Bemmaor, ESSEC Business School, Cergy-Pontoise, France, and Li Zheng, Leeds U. Business School, University of Leeds, UK, 2018. 
 
-On this site, you can find:
+On this site, the user can find:
 
 (i) a synthetic data set which has been created from the estimates of the Bass model for the US (plus random error): Xt = Nt/10^6 - Nt-1/10^6 + Std Normal deviate with mean 0 and SD = 0.1 where Nt is the number of unique and active MSN users in month t.
 
