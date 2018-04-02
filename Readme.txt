@@ -12,6 +12,9 @@ On this site, the user can find:
 
 (v) myfunctions.R and utilities.R that are useful for running the code. They both need to be uploaded along with the .csv data file.
 
+(vi) Evolution of the number of unique and active MSN users in six countries: April 2007-October 2012. 
+
 Possible extensions: The user can create another synthetic data set with a chasm in adoptions by using G/SG (alpha = 0.20 for example) and adding noise.
 
 Reference: Bemmaor, Albert C. and Li Zheng (2018), "The diffusion of mobile social networking: Further study," Working Paper, ESSEC Business School, Cergy-Pontoise.
+
